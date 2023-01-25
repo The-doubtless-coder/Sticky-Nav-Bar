@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  /* padding: 0; */
+}
+
+.top-container {
+  background-image: url(https://images.unsplash.com/photo-1618485293003-ab680585fac9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  padding: 10px;
+  /* margin-left: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 2px;
+  text-shadow: 0px 4px 8px;
+}
+
+.text {
+  margin: 50px 5%;
+  /* border: 1px solid red; */
+  font-family: cursive;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 40px;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* border: 1px solid red; */
+  color: black;
+  font-family: cursive;
+  /* cursor: crosshair; */
+}
+
+.navbar ul li a:hover {
+  color: crimson;
+}
+
+.navbar ul li a:focus {
+  color: yellow;
+}
+
+.navbar.console {
+  background-color: aquamarine;
+}
+
+.navbar.console ul li a {
+  color: coral;
+}
